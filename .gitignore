@@ -1,3 +1,5 @@
 main
+sieve_parallel
+sieve_sequential
 *.exe
 *.o
