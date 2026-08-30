@@ -34,6 +34,6 @@ int main(void){
     list_dir("./datasets");
     scanf("%d", &choice);
     open_file(choice, ",");
-    // printPassengerSatisfaction(&data[0]);
+    printPassengerSatisfaction(&data[0]);
     return 0;
 }
