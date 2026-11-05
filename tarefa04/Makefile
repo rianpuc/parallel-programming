@@ -1,5 +1,5 @@
-CC = gcc
-CFLAGS = -std=c11 -Wall -Iinclude -fopenmp
+CC = gcc-8
+CFLAGS = -O3 -std=c11 -Wall -Iinclude -fopenmp
 LDLIBS = -fopenmp -lm
 
 ifeq ($(OS),Windows_NT)
